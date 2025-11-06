@@ -1,0 +1,48 @@
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+
+}
+
+.card {
+  background-color: lightskyblue;
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.card h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 13px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author .avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
