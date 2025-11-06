@@ -1,12 +1,15 @@
 body {
-  background-color: gray;
+  background-image: url("assets/blog-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: Arial, sans-serif;
-
 }
+
 
 .card {
   background-color: lightskyblue;
@@ -44,5 +47,15 @@ body {
   width: 40px;
   height: 40px;
 }
+.label {
+  background-color: lightyellow;      
+  color: white;                
+  display: inline-block;        
+  padding: 5px 11px;           
+  border-radius: 6px;           
+  font-weight: bold;            
+  margin-bottom: 10px;         
+}
+
 
 
